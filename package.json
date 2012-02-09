@@ -1,0 +1,30 @@
+{
+  "author": "Josh Perez <josh@goatslacker.com> (http://www.goatslacker.com)",
+  "name": "nms",
+  "description": "Node Modules sync to all your computers via GitHub",
+  "version": "0.1.0",
+  "homepage": "http://github.com/goatslacker/nms",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/goatslacker/nms.git"
+  },
+  "preferGlobal": true,
+  "main": "lib/index.js",
+  "engines": {
+    "node": "~0.6.9"
+  },
+  "bin": {
+    "nms": "./bin/nms"
+  },
+  "scripts": {
+    "install": "./bin/nms firstuse"
+  },
+  "dependencies": {
+    "npm": "1.0.106",
+    "gister": "0.0.6",
+    "semver": "1.0.12",
+    "mustard": "latest"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {}
+}

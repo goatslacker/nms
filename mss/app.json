@@ -1,0 +1,10 @@
+{
+  "app": { "color": "cyan" },
+  "h1": { "color": "blue" },
+  "ok": { "color": "green" },
+  "yes": { "color": "green" },
+  "no": { "color": "red" },
+  "col1": { "width": 15 },
+  "col2": { "width": 5 },
+  "col3": { "width": 15 }
+}
