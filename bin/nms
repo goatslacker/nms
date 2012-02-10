@@ -6,8 +6,8 @@ var nms = require("../lib/").api;
   var action = params.shift();
 
   if (nms.hasOwnProperty(action)) {
-    exec = nms[action](params);
+    nms[action](params);
   } else {
-    exec = nms.help(params);
+    nms.help(params);
   }
 }());
