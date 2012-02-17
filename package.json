@@ -2,7 +2,7 @@
   "author": "Josh Perez <josh@goatslacker.com> (http://www.goatslacker.com)",
   "name": "nms",
   "description": "Node Modules sync to all your computers via GitHub",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "homepage": "http://github.com/goatslacker/nms",
   "repository": {
     "type": "git",
@@ -10,9 +10,6 @@
   },
   "preferGlobal": true,
   "main": "lib/index.js",
-  "engines": {
-    "node": "~0.6.9"
-  },
   "bin": {
     "nms": "./bin/nms"
   },
