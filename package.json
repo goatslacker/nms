@@ -21,6 +21,7 @@
     "gister": "0.0.6",
     "semver": "1.0.12",
     "prompt": "0.1.12",
+    "charm": "0.0.6",
     "mustard": "latest"
   },
   "devDependencies": {},
