@@ -16,6 +16,7 @@
   "scripts": {
     "postinstall": "nms firstuse"
   },
+  "keywords": ["node", "modules", "sync"],
   "dependencies": {
     "npm": "1.0.106",
     "gister": "0.0.6",
